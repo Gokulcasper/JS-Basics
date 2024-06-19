@@ -20,21 +20,28 @@
 // let lastName; //Undefined
 // let trophy=null; //Null
 
-let students={
-    name:"Gokul",
-    age:26,
-    isAlive:true,
-    gender:"male",
-    address:"Namakkal,Tamilnadu",
-    sibling:{
-        brother:"suresh,vijay",
-        sister:"divya,priya,jayanthi"
-    }
-}              // Object
+// let students={
+//     name:"Gokul",
+//     age:26,
+//     isAlive:true,
+//     gender:"male",
+//     address:"Namakkal,Tamilnadu",
+//     sibling:{
+//         brother:"suresh,vijay",
+//         sister:"divya,priya,jayanthi"
+//     }
+// }              // Object
 // students.address="coimbatore,Tamilnadu"; //Overwrite
 // Dot Notation
 // console.log(students.address);
-console.log(students.sibling.sister);
+// console.log(students.sibling.sister);
 // Bracket Notation
 // console.log(students['gender']);
-console.log(students.sibling['brother']);
+// console.log(students.sibling['brother']);
+
+//Array
+let color=["red","green","blue"];
+color[3]=null
+color[4]="black"
+color[5]=75
+console.log(color.length)
