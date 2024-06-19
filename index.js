@@ -40,8 +40,24 @@
 // console.log(students.sibling['brother']);
 
 //Array
-let color=["red","green","blue"];
-color[3]=null
-color[4]="black"
-color[5]=75
-console.log(color.length)
+// let color=["red","green","blue"];
+// color[3]=null
+// color[4]="black"
+// color[5]=75
+// console.log(color.length)
+
+//function
+function greetuser(firstName,lastName){
+    // Set of Statements
+    // let name="Gokul";
+    let msg="Hello " + firstName + "" + lastName + " This is JS"
+    console.log(msg)
+}
+greetuser("Gokul","raj")
+greetuser("Mani","kandan")
+
+function add(number1,number2)
+{
+    console.log(number1 + number2)
+}
+add(35,65)
