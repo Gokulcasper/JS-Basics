@@ -14,8 +14,27 @@
 // let msg="Hello My Name is " + name + " & I born on "+ dob +" I'm learning JS";
 // console.log(msg);
 
-let firstname="Gokul"; //String
-let age=24; //Integer
-let isYoung=true; //Boolean
-let lastName; //Undefined
-let trophy=null; //Null
+// let firstname="Gokul"; //String
+// let age=24; //Integer
+// let isYoung=true; //Boolean
+// let lastName; //Undefined
+// let trophy=null; //Null
+
+let students={
+    name:"Gokul",
+    age:26,
+    isAlive:true,
+    gender:"male",
+    address:"Namakkal,Tamilnadu",
+    sibling:{
+        brother:"suresh,vijay",
+        sister:"divya,priya,jayanthi"
+    }
+}              // Object
+// students.address="coimbatore,Tamilnadu"; //Overwrite
+// Dot Notation
+// console.log(students.address);
+console.log(students.sibling.sister);
+// Bracket Notation
+// console.log(students['gender']);
+console.log(students.sibling['brother']);
